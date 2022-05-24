@@ -440,13 +440,15 @@ img {
 .customers {
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  gap: 30px;
 }
 .customers-box {
+  margin-right: 30px;
+
   width: 170px;
   height: 92px;
+}
+.customers-box:last-child {
+  margin-right: 0;
 }
 
 .customers-link {
